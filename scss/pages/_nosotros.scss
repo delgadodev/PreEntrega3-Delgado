@@ -1,0 +1,8 @@
+.nosotros {
+  @include flex-container(column, center, center);
+  .nosotros-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+}
